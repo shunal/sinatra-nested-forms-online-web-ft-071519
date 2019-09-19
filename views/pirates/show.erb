@@ -7,9 +7,11 @@
 </div><br>
 
 
-<h2>Ships</h2>
-<%=@ships.each do |ship|%>
-Name: <%= ship.name %>
-Type: <%= ship.type %>
-Booty: <%= ship.booty %>
-<%= end %>
+<h1>Ships</h1>
+<% @ships.each do |ship| %>
+<div class="ship">
+  <p>Name: <%= ship.name %></p><br>
+  <p>Type: <%= ship.type %></p><br>
+  <p>Booty: <%= ship.booty %></p>
+</div><br>
+<% end %>
