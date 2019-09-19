@@ -13,7 +13,7 @@ module FormsLab
       erb ':pirates/new'
     end 
     
-    p
+    
 
   end
 end
