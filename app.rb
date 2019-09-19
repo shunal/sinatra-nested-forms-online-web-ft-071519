@@ -18,7 +18,7 @@ module FormsLab
     Ship.new(details)
   end
  
-  @courses = Course.all
+  @ships = Ship.all
  
   erb :student
     end 
